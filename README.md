@@ -1,5 +1,5 @@
 # UltraYield documentation
 
 ```
-vitepress dev
+pnpm docs:dev
 ```
