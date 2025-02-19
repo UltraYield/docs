@@ -1,15 +1,16 @@
 {
   "type": "module",
-  "devDependencies": {
-    "vitepress": "^1.6.3"
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=10"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev:cms": "vite admin"
   },
   "dependencies": {
-    "@types/node": "^22.13.4",
-    "gray-matter": "^4.0.3"
+    "@sveltia/cms": "^0.58.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.1"
   }
 }
