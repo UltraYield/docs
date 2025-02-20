@@ -1,12 +1,12 @@
 import { fileURLToPath } from 'url'
 import { dirname, join, resolve } from 'path'
 import { readdirSync, readFileSync } from "fs";
-import * as matter from "gray-matter";
+import matter from "gray-matter";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-export const getNavigationItems = (dirName: string): { text: string, link: string }[] => {
+export const getNavigationItems = (dirName) => {
   const fileDir = resolve(__dirname, `../${dirName}`);
   const dirFiles = readdirSync(fileDir);
 

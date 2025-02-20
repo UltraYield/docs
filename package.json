@@ -9,7 +9,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@types/node": "^22.13.4",
     "gray-matter": "^4.0.3"
   }
 }
