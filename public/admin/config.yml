@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: UltraYield/docs # Path to your GitHub repository
+  open_authoring: true
 
 public_folder: ".vitepress/dist"
 media_folder: "public"
